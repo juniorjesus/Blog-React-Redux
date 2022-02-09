@@ -1,0 +1,32 @@
+.Users {
+  display: flex;
+  flex-direction: column;
+  &__details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 25px;
+    align-items: center;
+  }
+  &__image {
+    width: 125px;
+    height: 125px;
+    background: url('../../statics/users.svg') center no-repeat;
+    background-size: contain;
+  }
+  &__title {
+    font-size: 2.2rem;
+    font-style: italic;
+    font-weight: 700;
+    text-align: center;
+  }
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1600px;
+    margin: 25px auto 0;
+    gap: 25px;
+    justify-content: center;
+  }
+}
